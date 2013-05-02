@@ -1,4 +1,4 @@
-# grunt-contrib-requirejs [![Build Status](https://secure.travis-ci.org/gjurgens/grunt-annotated-requirejs.png?branch=master)](http://travis-ci.org/gruntjs/grunt-contrib-requirejs)
+# grunt-contrib-requirejs [![Build Status](https://secure.travis-ci.org/gjurgens/grunt-annotated-requirejs.png?branch=master)](http://travis-ci.org/gjurgens/grunt-annotated-requirejs)
 
 > Optimize RequireJS projects using r.js.
 
