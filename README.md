@@ -1,4 +1,4 @@
-# grunt-contrib-requirejs [![Build Status](https://secure.travis-ci.org/gjurgens/grunt-annotated-requirejs.png?branch=master)](http://travis-ci.org/gjurgens/grunt-annotated-requirejs)
+# grunt-annotated-requirejs [![Build Status](https://secure.travis-ci.org/gjurgens/grunt-annotated-requirejs.png?branch=master)](http://travis-ci.org/gjurgens/grunt-annotated-requirejs)
 
 > Optimize RequireJS projects using r.js.
 
@@ -10,16 +10,16 @@ This plugin requires Grunt `~0.4.0`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-contrib-requirejs --save-dev
+npm install grunt-annotated-requirejs --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-contrib-requirejs');
+grunt.loadNpmTasks('grunt-annotated-requirejs');
 ```
 
-*This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.3](https://github.com/gruntjs/grunt-contrib-requirejs/tree/grunt-0.3-stable).*
+*This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.3](https://github.com/gruntjs/grunt-annotated-requirejs/tree/grunt-0.3-stable).*
 
 
 

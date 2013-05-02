@@ -1,7 +1,8 @@
 /*
- * grunt-contrib-requirejs
+ * grunt-annotated-requirejs
  * http://gruntjs.com/
  *
+ * Copyright (c) 2013 Gabriel Jürgens, contributors
  * Copyright (c) 2012 Tyler Kellen, contributors
  * Licensed under the MIT license.
  */
