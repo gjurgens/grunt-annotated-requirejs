@@ -8,8 +8,8 @@ exports['requirejs'] = {
 
     test.expect(1);
 
-    expect = 'define("hello",[],function(){return"hello"}),define("world",[],function(){return"world"}),require(["hello","world"],function(e,t){console.log(e,t)}),define("project",function(){});';
-    result = grunt.file.read('tmp/requirejs.js');
+    expect = 'define("hello",[],function(){return"hello"}),define("sub/moon",[],function(){return"moon"}),define("world",["sub/moon"],function(){return"world"}),require(["hello","world"],function(e,t){console.log(e,t)}),define("project",function(){});';
+    result = grunt.file.read('tmp/project.js');
     test.equal(expect, result, 'should optimize javascript modules with requireJS');
 
     test.done();
@@ -22,7 +22,7 @@ exports['requirejs'] = {
 
     test.expect(1);
 
-    expect = 'define("hello",[],function(){return"hello"}),define("world",[],function(){return"world"}),require(["hello","world"],function(e,t){console.log(e,t)}),define("project",function(){});';
+    expect = 'define("hello",[],function(){return"hello"}),define("sub/moon",[],function(){return"moon"}),define("world",["sub/moon"],function(){return"world"}),require(["hello","world"],function(e,t){console.log(e,t)}),define("project",function(){});';
     result = grunt.file.read('tmp/requirejs-template.js');
     test.equal(expect, result, 'should process options with template variables.');
 

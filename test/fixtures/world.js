@@ -1,1 +1,2 @@
-define(function(){return "world";});
+//@packageModule2
+define(["sub/moon"], function(){return "world";});

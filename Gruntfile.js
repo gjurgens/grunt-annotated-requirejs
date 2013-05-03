@@ -34,8 +34,8 @@ module.exports = function(grunt) {
       compile: {
         options: {
           baseUrl: 'test/fixtures',
-          name: 'project',
-          out: 'tmp/requirejs.js'
+          dir: 'tmp',
+          modules: [{pattern: /\/\/.*@packageModule/},{pattern: /\/\/.*@packageModule2/}]
         }
       },
       template: {

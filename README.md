@@ -1,4 +1,4 @@
-# grunt-annotated-requirejs [![Build Status](https://secure.travis-ci.org/gjurgens/grunt-annotated-requirejs.png?branch=master)](http://travis-ci.org/gjurgens/grunt-annotated-requirejs)
+# grunt-annotated-requirejs [![Build Status](https://travis-ci.org/gjurgens/grunt-annotated-requirejs.png?branch=master)](https://travis-ci.org/gjurgens/grunt-annotated-requirejs)
 
 > Optimize RequireJS projects using r.js.
 
@@ -19,7 +19,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-annotated-requirejs');
 ```
 
-*This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.3](https://github.com/gruntjs/grunt-annotated-requirejs/tree/grunt-0.3-stable).*
+*This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.3](https://github.com/gruntjs/grunt-contrib-requirejs/tree/grunt-0.3-stable).*
 
 
 
@@ -47,16 +47,16 @@ requirejs: {
 
 ## Release History
 
- * 2013-02-14   v0.4.0   First official release for Grunt 0.4.0.
- * 2013-01-22   v0.4.0rc7   Updating to work with grunt v0.4.0rc7.
- * 2013-01-08   v0.4.0rc5   Updating to work with grunt v0.4.0rc5.
- * 2012-10-11   v0.3.3   Rename grunt-contrib-lib dep to grunt-lib-contrib.
- * 2012-10-08   v0.3.1   Bump to RequireJS 2.1.x. Run optimizer async.
- * 2012-09-22   v0.3.0   Options no longer accepted from global config key.
- * 2012-09-09   v0.2.0   Refactored from grunt-contrib into individual repo.
+ * 2013-02-15   v0.4.0   First official release for Grunt 0.4.0.
+ * 2013-01-23   v0.4.0rc7   Updating to work with grunt v0.4.0rc7.
+ * 2013-01-09   v0.4.0rc5   Updating to work with grunt v0.4.0rc5.
+ * 2012-10-12   v0.3.3   Rename grunt-contrib-lib dep to grunt-lib-contrib.
+ * 2012-10-09   v0.3.1   Bump to RequireJS 2.1.x. Run optimizer async.
+ * 2012-09-23   v0.3.0   Options no longer accepted from global config key.
+ * 2012-09-10   v0.2.0   Refactored from grunt-contrib into individual repo.
 
 ---
 
-Task submitted by [Tyler Kellen](http://goingslowly.com/)
+Task submitted by [Gabriel Jurgens](https://github.com/gjurgens/)
 
-*This file was generated on Wed Feb 20 2013 12:36:02.*
+*This file was generated on Thu May 02 2013 20:45:00.*
