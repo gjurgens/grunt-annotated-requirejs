@@ -62,10 +62,11 @@ require(['hello', 'world'], function(hello, world) {
 
 ## Release History
 
+ * 2013-05-04   v0.1.1   Added some samples and rescriptions to README.md.
  * 2013-05-04   v0.1.0   First release after forking [contrib-requirejs](https://github.com/gruntjs/grunt-contrib-requirejs).
 
 ---
 
 Task submitted by [Gabriel Jurgens](https://github.com/gjurgens/)
 
-*This file was generated on Sat May 04 2013 02:37:14.*
+*This file was generated on Sat May 04 2013 02:51:19.*
