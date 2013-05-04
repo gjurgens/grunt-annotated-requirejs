@@ -1,6 +1,6 @@
 # grunt-annotated-requirejs [![Build Status](https://travis-ci.org/gjurgens/grunt-annotated-requirejs.png?branch=master)](https://travis-ci.org/gjurgens/grunt-annotated-requirejs)
 
-> Optimize RequireJS projects using r.js.
+> Optimize RequireJS projects using r.js, supporting annotations to define which AMD modules are compiled into one unified file with all it's dependencies included.
 
 
 
@@ -30,18 +30,34 @@ Task targets and options may be specified according to the grunt [Configuring ta
 ### Options
 
 For a full list of possible options, [see the r.js example build file](https://github.com/jrburke/r.js/blob/master/build/example.build.js).
+
+This plugin adds the posibility to define regexp patterns into the r.js config to define which AMD modules will be treated as packages containing the module with all it's dependencies included in the same file.
+The regexp will be tested against the content of all modules included in the baseUrl directory tree.
+
+
 ### Usage Examples
+
+#### Gruntfile.js
 
 ```js
 requirejs: {
   compile: {
     options: {
-      baseUrl: "path/to/base",
-      mainConfigFile: "path/to/config.js",
-      out: "path/to/optimized.js"
+      baseUrl: 'test/fixtures',
+      dir: 'tmp',
+      modules: [{pattern: /\/\/.*@packageModule/}]
     }
   }
 }
+```
+
+#### project.js
+
+```js
+//@packageModule
+require(['hello', 'world'], function(hello, world) {
+  console.log(hello,world);
+});
 ```
 
 
