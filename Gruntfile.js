@@ -35,7 +35,7 @@ module.exports = function(grunt) {
         options: {
           baseUrl: 'test/fixtures',
           dir: 'tmp',
-          modules: [{pattern: /\/\/.*@packageModule/},{pattern: /\/\/.*@packageModule2/}]
+          modules: [{pattern: /\/\/.*@packageModule/},{name: "other/theother"},{pattern: /\/\/.*@packageModule2/}]
         }
       },
       template: {

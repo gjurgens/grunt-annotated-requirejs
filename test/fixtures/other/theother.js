@@ -1,0 +1,1 @@
+define(["hello"],function(){return "moon";});

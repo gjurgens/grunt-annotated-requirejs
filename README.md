@@ -47,13 +47,7 @@ requirejs: {
 
 ## Release History
 
- * 2013-02-15   v0.4.0   First official release for Grunt 0.4.0.
- * 2013-01-23   v0.4.0rc7   Updating to work with grunt v0.4.0rc7.
- * 2013-01-09   v0.4.0rc5   Updating to work with grunt v0.4.0rc5.
- * 2012-10-12   v0.3.3   Rename grunt-contrib-lib dep to grunt-lib-contrib.
- * 2012-10-09   v0.3.1   Bump to RequireJS 2.1.x. Run optimizer async.
- * 2012-09-23   v0.3.0   Options no longer accepted from global config key.
- * 2012-09-10   v0.2.0   Refactored from grunt-contrib into individual repo.
+ * 2013-05-104   v0.1.0   First release after forking [contrib-requirejs](https://github.com/gruntjs/grunt-contrib-requirejs).
 
 ---
 
