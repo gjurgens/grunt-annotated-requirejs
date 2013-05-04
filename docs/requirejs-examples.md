@@ -1,13 +1,24 @@
 # Usage Examples
 
+## Gruntfile.js
+
 ```js
 requirejs: {
   compile: {
     options: {
-      baseUrl: "path/to/base",
-      mainConfigFile: "path/to/config.js",
-      out: "path/to/optimized.js"
+      baseUrl: 'test/fixtures',
+      dir: 'tmp',
+      modules: [{pattern: /\/\/.*@packageModule/}]
     }
   }
 }
+```
+
+## project.js
+
+```js
+//@packageModule
+require(['hello', 'world'], function(hello, world) {
+  console.log(hello,world);
+});
 ```
