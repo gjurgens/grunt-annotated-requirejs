@@ -1,7 +1,7 @@
 {
   "name": "grunt-annotated-requirejs",
   "description": "Optimize RequireJS projects using r.js, supporting annotations to define which AMD modules are compiled into one unified file with all it's dependencies included.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/gjurgens/grunt-annotated-requirejs",
   "author": {
     "name": "Gabriel Jürgens",
