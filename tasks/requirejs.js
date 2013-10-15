@@ -59,7 +59,14 @@ module.exports = function(grunt) {
             }
             if(pattern !== "") {
               modules.pop();
-              modules = modules.concat(generateModulesList(options.baseUrl,pattern)).filter(function(elem, pos, self) {
+              var basePath = "";
+              if(options.appDir) {
+                basePath += options.appDir + "/";
+              }
+              if(options.baseUrl) {
+                basePath += options.baseUrl;
+              }
+              modules = modules.concat(generateModulesList(basePath,pattern)).filter(function(elem, pos, self) {
                 return self.map(function(module){
                   return module.name;
                 }).indexOf(elem.name) === pos;

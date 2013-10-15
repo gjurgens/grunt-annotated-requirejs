@@ -33,7 +33,8 @@ module.exports = function(grunt) {
     requirejs: {
       compile: {
         options: {
-          baseUrl: 'test/fixtures',
+          appDir: 'test/fixtures',
+          baseUrl: '.',
           dir: 'tmp',
           modules: [{pattern: /\/\/.*@packageModule/},{name: "other/theother"},{pattern: /\/\/.*@packageModule2/}]
         }
